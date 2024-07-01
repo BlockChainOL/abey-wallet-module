@@ -132,7 +132,7 @@ class NTC {
       }
       hexData = hexData + tmp;
     }
-    hexData = trimRight(hexData);
+    // hexData = trimRight(hexData);
     rs = utf8.decode(HEX.decode(hexData));
     return rs;
   }
