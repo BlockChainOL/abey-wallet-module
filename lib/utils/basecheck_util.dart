@@ -1,9 +1,10 @@
+import 'package:abey_wallet/common/constant.dart';
 import 'package:crypto/crypto.dart' show sha256, Digest;
 import 'dart:typed_data';
 import 'dart:math';
 import 'package:abey_wallet/utils/base_util.dart';
 
-final String ALPHABET = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz';
+final String ALPHABET = Constant.ZALPHABETLONG;
 final base58 = new Base(ALPHABET);
 
 Uint8List _sha256x2(Uint8List buffer) {
