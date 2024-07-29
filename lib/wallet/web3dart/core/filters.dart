@@ -1,8 +1,6 @@
 // part of 'package:web3dart/web3dart.dart';
 import 'package:abey_wallet/wallet/web3dart/credentials/address.dart';
 import 'package:abey_wallet/wallet/web3dart/crypto/formatting.dart';
-
-import '../web3dart.dart';
 import 'dart:async';
 import '../utils/equality.dart' as eq;
 import 'package:json_rpc_2/json_rpc_2.dart' as rpc;

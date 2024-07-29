@@ -1,8 +1,6 @@
 import 'dart:math';
 import 'dart:typed_data';
 import 'package:abey_wallet/extension/string_extension.dart';
-import 'package:abey_wallet/wallet/web3dart/crypto.dart';
-import 'package:abey_wallet/wallet/web3dart/web3dart.dart';
 import 'package:abey_wallet/utils/bip_util.dart' as bip39;
 import 'package:abey_wallet/utils/bip32_util.dart' as bip32;
 import 'package:http/http.dart';
