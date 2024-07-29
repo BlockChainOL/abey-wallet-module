@@ -1,6 +1,6 @@
-// part of web3dart;
-import '../web3dart.dart';
-import '../crypto.dart';
+import 'package:abey_wallet/wallet/web3dart/core/ether_amount.dart';
+import 'package:abey_wallet/wallet/web3dart/core/ether_unit.dart';
+import 'package:abey_wallet/wallet/web3dart/crypto/formatting.dart';
 
 class BlockInformation {
   BlockInformation({

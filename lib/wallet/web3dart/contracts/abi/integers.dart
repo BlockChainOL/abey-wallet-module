@@ -1,6 +1,7 @@
 import 'dart:typed_data';
 
-import '../../credentials.dart';
+import 'package:abey_wallet/wallet/web3dart/credentials/address.dart';
+
 import '../../crypto/formatting.dart';
 import '../../utils/length_tracking_byte_sink.dart';
 import 'types.dart';
@@ -14,8 +15,7 @@ abstract class _IntTypeBase extends AbiType<BigInt> {
   final int length;
 
   @override
-  EncodingLengthInfo get encodingLength =>
-      const EncodingLengthInfo(sizeUnitBytes);
+  EncodingLengthInfo get encodingLength => const EncodingLengthInfo(sizeUnitBytes);
 
   String get _namePrefix;
   @override

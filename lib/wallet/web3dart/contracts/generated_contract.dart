@@ -1,5 +1,9 @@
-import '../crypto.dart';
-import '../web3dart.dart';
+import 'package:abey_wallet/wallet/web3dart/contracts.dart';
+import 'package:abey_wallet/wallet/web3dart/core/block_number.dart';
+import 'package:abey_wallet/wallet/web3dart/core/client.dart';
+import 'package:abey_wallet/wallet/web3dart/core/transaction.dart';
+import 'package:abey_wallet/wallet/web3dart/credentials/credentials.dart';
+import 'package:abey_wallet/wallet/web3dart/crypto/formatting.dart';
 
 /// Base classes for generated contracts.
 ///

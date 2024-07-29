@@ -1,5 +1,4 @@
-// part of web3dart;
-import '../web3dart.dart';
+import 'package:abey_wallet/wallet/web3dart/core/ether_unit.dart';
 
 /// Utility class to easily convert amounts of Ether into different units of
 /// quantities.

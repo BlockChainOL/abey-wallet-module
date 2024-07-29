@@ -1,5 +1,3 @@
-// part of web3dart;
-
 enum EtherUnit {
   /// Wei, the smallest and atomic amount of Ether
   wei,

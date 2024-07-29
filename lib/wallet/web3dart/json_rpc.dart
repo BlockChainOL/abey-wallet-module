@@ -2,10 +2,8 @@ library json_rpc;
 
 import 'dart:async';
 import 'dart:convert';
-
 import 'package:http/http.dart';
 
-// ignore: one_member_abstracts
 abstract class RpcService {
   RpcService(this.url);
 

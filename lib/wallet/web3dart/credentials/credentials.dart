@@ -2,10 +2,10 @@ import 'dart:convert';
 import 'dart:math';
 import 'dart:typed_data';
 
+import 'package:abey_wallet/wallet/web3dart/core/transaction.dart';
+
 import '../utils/equality.dart' as eq;
 import 'package:pointycastle/ecc/api.dart' show ECPoint;
-
-import '../web3dart.dart' show Transaction;
 import '../crypto/formatting.dart';
 import '../crypto/keccak.dart';
 import '../crypto/secp256k1.dart';
